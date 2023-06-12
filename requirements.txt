@@ -1,0 +1,15 @@
+pandas
+jupyter
+requests
+pyarrow
+tqdm
+plotly
+scikit-learn
+xgboost
+optuna
+python-dotenv
+hopsworks
+streamlit
+pydeck 
+geopandas 
+

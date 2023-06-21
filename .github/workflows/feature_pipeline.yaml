@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: .
+        working-directory: taxi_wala_NYC
     steps:
     - uses: actions/checkout@v3
 
@@ -21,6 +21,10 @@ jobs:
       with:
         python-version: '3.10.12'
 
+    - name: List directory contents
+      run: |
+        ls ../notebooks
+          
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip

@@ -33,5 +33,5 @@ jobs:
       
       run: |
         export PYTHONPATH="${PYTHONPATH}:../"
-        jupyter nbconvert --to notebook --execute ../notebooks/12_feature_pipeline.ipynb
+        jupyter nbconvert --to notebook --execute notebooks/12_feature_pipeline.ipynb
 

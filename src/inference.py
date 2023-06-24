@@ -138,6 +138,8 @@ def load_predictions_from_store(
 
     feature_store = get_feature_store()
 
+
+# FEATURE_GROUP_MODEL_PREDICTIONS
     predictiong_fg = feature_store.get_feature_group(
         name=config.FEATURE_GROUP_MODEL_PREDICTIONS,
         version=1,

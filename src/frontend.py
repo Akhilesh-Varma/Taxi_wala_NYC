@@ -12,7 +12,7 @@ import pydeck as pdk
 # os.chdir('/Users/akhileshvarmabhupathiraju/Documents/taxi_ml_project/NYC')
 
 import sys
-sys.path.insert(0, "/Taxi_wala_NYC")
+sys.path.insert(0, "/taxi_wala_nyc")
 
 
 from src.inference import (

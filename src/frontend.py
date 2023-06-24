@@ -13,6 +13,8 @@ import pydeck as pdk
 
 import sys
 sys.path.insert(0, "/taxi_wala_nyc")
+import sys
+sys.path.insert(0, "/app/taxi_wala_nyc")
 
 
 from src.inference import (
